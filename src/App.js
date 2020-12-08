@@ -8,7 +8,7 @@ const App = () => {
     return (
         <div className="App">
             <input ref={searchInput} type="text" />
-            <button onClick={focusSearchInput}>Focus Search Haha</button>
+            <button onClick={focusSearchInput}>Focus Search</button>
         </div>
     );
 };
